@@ -21,7 +21,7 @@ public interface UserDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertUser(UserModel user);
 
-    @Query("UPDATE usermodel SET username = :userName, age = :age WHERE userId = :userId ")
-    void updateUser(String userName, String age, int userId);
+    @Query("UPDATE usermodel SET username = :userName WHERE userId = :userId ")
+    void updateUser(String userName, int userId);
 
 }

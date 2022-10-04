@@ -14,20 +14,9 @@
         android:layout_margin="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/user_age_item_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/user_age_text"
-        android:textSize="20sp"
-        android:layout_margin="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/user_name_item_text"/>
-
-    <View
+     <View
         android:id="@+id/divider"
-        app:layout_constraintTop_toBottomOf="@id/user_age_item_text"
+        app:layout_constraintTop_toBottomOf="@id/user_name_item_text"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
         style="@style/Divider"/>

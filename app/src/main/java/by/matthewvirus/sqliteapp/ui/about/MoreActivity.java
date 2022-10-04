@@ -23,7 +23,7 @@ public class MoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_more);
 
         userNameEditText = findViewById(R.id.user_name_input);
-        userAgeEditText = findViewById(R.id.user_age_input);
+
         updateUserButton = findViewById(R.id.update_user_button);
         seeUsersButton = findViewById(R.id.see_users_button);
 
@@ -32,11 +32,11 @@ public class MoreActivity extends AppCompatActivity {
         UserDao dao = App.getInstance().getUserDao();
 
         userNameEditText.setText(dao.getUserById(extraUserId).username);
-        userAgeEditText.setText(dao.getUserById(extraUserId).age);
+
 
         updateUserButton.setOnClickListener(view -> dao.updateUser(
                 userNameEditText.getText().toString(),
-                userAgeEditText.getText().toString(),
+
                 extraUserId
         ));
 

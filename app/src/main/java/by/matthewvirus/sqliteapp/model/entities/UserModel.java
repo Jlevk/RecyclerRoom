@@ -12,11 +12,10 @@ public class UserModel {
 
     public String username;
 
-    public String age;
 
-    public UserModel(String username, String age) {
+    public UserModel(String username) {
         this.username = username;
-        this.age = age;
+
     }
 
     @NonNull
@@ -25,7 +24,7 @@ public class UserModel {
         return "UserModel{" +
                 "userId='" + userId + '\'' +
                 ", username='" + username + '\'' +
-                ", age=" + age +
+
                 '}';
     }
 }

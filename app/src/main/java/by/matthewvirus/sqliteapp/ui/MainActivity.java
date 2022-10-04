@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         userNameEditText = findViewById(R.id.user_name_input);
-        userAgeEditText = findViewById(R.id.user_age_input);
+
         Button createUserButton = findViewById(R.id.create_user_button);
         Button seeUsersButton = findViewById(R.id.see_users_button);
 
@@ -31,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
         createUserButton.setOnClickListener(view -> {
             UserModel user =
                     new UserModel(
-                            userNameEditText.getText().toString(),
-                            userAgeEditText.getText().toString());
+                            userNameEditText.getText().toString());
             dao.insertUser(user);
         });
 

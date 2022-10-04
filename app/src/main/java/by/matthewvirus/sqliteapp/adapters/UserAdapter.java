@@ -43,7 +43,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserHolder> {
         UserModel user = users.get(position);
 
         holder.userNameTextView.setText(user.username);
-        holder.userAgeTextView.setText(user.age);
 
         holder.itemView.setOnClickListener(view -> onUserClickListener.onUserClick(user, position));
     }
@@ -55,11 +54,11 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserHolder> {
 
     public static class UserHolder extends RecyclerView.ViewHolder {
         public final TextView userNameTextView;
-        public final TextView userAgeTextView;
+
         UserHolder(View view) {
             super(view);
             userNameTextView = view.findViewById(R.id.user_name_item_text);
-            userAgeTextView = view.findViewById(R.id.user_age_item_text);
+
         }
     }
 
