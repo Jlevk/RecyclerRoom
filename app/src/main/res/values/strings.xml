@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLiteApp</string>
+    <string name="user_name">User name</string>
+    <string name="user_id">User id</string>
+    <string name="user_age">User age</string>
+    <string name="create">Create user!</string>
+    <string name="update">Update user!</string>
+    <string name="see_all">See all!</string>
+    <string name="user_name_text">User name: %s</string>
+    <string name="user_age_text">User age: %d</string>
+</resources>
