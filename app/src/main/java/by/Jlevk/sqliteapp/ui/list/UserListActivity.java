@@ -44,4 +44,5 @@ public class UserListActivity extends AppCompatActivity {
             startActivity(intent);
         });
     }
+
 }
