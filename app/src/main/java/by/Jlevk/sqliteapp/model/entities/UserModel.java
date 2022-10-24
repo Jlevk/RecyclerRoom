@@ -1,4 +1,4 @@
-package by.matthewvirus.sqliteapp.model.entities;
+package by.Jlevk.sqliteapp.model.entities;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;

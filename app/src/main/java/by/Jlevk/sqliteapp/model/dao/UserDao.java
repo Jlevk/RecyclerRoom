@@ -1,4 +1,4 @@
-package by.matthewvirus.sqliteapp.model.dao;
+package by.Jlevk.sqliteapp.model.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
@@ -7,7 +7,7 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import by.matthewvirus.sqliteapp.model.entities.UserModel;
+import by.Jlevk.sqliteapp.model.entities.UserModel;
 
 @Dao
 public interface UserDao {

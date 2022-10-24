@@ -1,11 +1,11 @@
-package by.matthewvirus.sqliteapp.ui.list;
+package by.Jlevk.sqliteapp.ui.list;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 import java.util.List;
 
-import by.matthewvirus.sqliteapp.App;
-import by.matthewvirus.sqliteapp.model.entities.UserModel;
+import by.Jlevk.sqliteapp.App;
+import by.Jlevk.sqliteapp.model.entities.UserModel;
 
 public class UserListViewModel extends ViewModel {
 

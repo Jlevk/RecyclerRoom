@@ -1,14 +1,15 @@
-package by.matthewvirus.sqliteapp.ui.about;
+package by.Jlevk.sqliteapp.ui.about;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
-import by.matthewvirus.sqliteapp.App;
-import by.matthewvirus.sqliteapp.R;
-import by.matthewvirus.sqliteapp.model.dao.UserDao;
-import by.matthewvirus.sqliteapp.ui.list.UserListActivity;
+import by.Jlevk.sqliteapp.App;
+
+import by.Jlevk.sqliteapp.R;
+import by.Jlevk.sqliteapp.model.dao.UserDao;
+import by.Jlevk.sqliteapp.ui.list.UserListActivity;
 
 public class MoreActivity extends AppCompatActivity {
 

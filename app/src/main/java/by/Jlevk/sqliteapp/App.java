@@ -1,9 +1,9 @@
-package by.matthewvirus.sqliteapp;
+package by.Jlevk.sqliteapp;
 
 import android.app.Application;
 import androidx.room.Room;
-import by.matthewvirus.sqliteapp.model.dao.UserDao;
-import by.matthewvirus.sqliteapp.model.database.UsersDatabase;
+import by.Jlevk.sqliteapp.model.dao.UserDao;
+import by.Jlevk.sqliteapp.model.database.UsersDatabase;
 
 public class App extends Application {
 

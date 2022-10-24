@@ -1,4 +1,4 @@
-package by.matthewvirus.sqliteapp.ui.list;
+package by.Jlevk.sqliteapp.ui.list;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import by.matthewvirus.sqliteapp.R;
-import by.matthewvirus.sqliteapp.adapters.UserAdapter;
-import by.matthewvirus.sqliteapp.ui.MainActivity;
-import by.matthewvirus.sqliteapp.ui.about.MoreActivity;
+import by.Jlevk.sqliteapp.R;
+import by.Jlevk.sqliteapp.adapters.UserAdapter;
+import by.Jlevk.sqliteapp.ui.MainActivity;
+import by.Jlevk.sqliteapp.ui.about.MoreActivity;
 
 public class UserListActivity extends AppCompatActivity {
 
@@ -23,8 +23,8 @@ public class UserListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
 
-        UserListViewModel viewModel =
-                new ViewModelProvider(this).get(UserListViewModel.class);
+        by.Jlevk.sqliteapp.ui.list.UserListViewModel viewModel =
+                new ViewModelProvider(this).get(by.Jlevk.sqliteapp.ui.list.UserListViewModel.class);
         UserAdapter.OnUserClickListener userClickListener = (user, position) -> {
             Intent intent = new Intent(UserListActivity.this, MoreActivity.class);
             intent.putExtra("pos", position);

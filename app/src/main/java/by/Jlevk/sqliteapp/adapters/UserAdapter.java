@@ -1,4 +1,4 @@
-package by.matthewvirus.sqliteapp.adapters;
+package by.Jlevk.sqliteapp.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
-import by.matthewvirus.sqliteapp.R;
-import by.matthewvirus.sqliteapp.model.entities.UserModel;
+import by.Jlevk.sqliteapp.R;
+import by.Jlevk.sqliteapp.model.entities.UserModel;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserHolder> {
 
