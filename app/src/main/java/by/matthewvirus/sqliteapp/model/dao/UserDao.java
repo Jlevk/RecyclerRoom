@@ -24,4 +24,5 @@ public interface UserDao {
     @Query("UPDATE usermodel SET username = :userName WHERE userId = :userId ")
     void updateUser(String userName, int userId);
 
+
 }

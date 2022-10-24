@@ -15,7 +15,6 @@ import by.matthewvirus.sqliteapp.ui.list.UserListActivity;
 public class MainActivity extends AppCompatActivity {
 
     private EditText userNameEditText;
-    private EditText userAgeEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

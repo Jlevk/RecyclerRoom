@@ -33,10 +33,8 @@ public class MoreActivity extends AppCompatActivity {
 
         userNameEditText.setText(dao.getUserById(extraUserId).username);
 
-
         updateUserButton.setOnClickListener(view -> dao.updateUser(
                 userNameEditText.getText().toString(),
-
                 extraUserId
         ));
 
